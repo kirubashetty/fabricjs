@@ -28,8 +28,8 @@ canvas.on('mouse:wheel', function(opt) {
   opt.e.preventDefault();
   opt.e.stopPropagation();
 })
-canvas.on('mouse:down', function(options) {
-  if(options.target==null)
+canvas.on('mouse:down', function(opt) {
+  if(opt.target==null)
   {
     canvas.setZoom(1);
   }
