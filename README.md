@@ -1,1 +1,1 @@
-# fabricjs
+# fabricjs zoomable image
