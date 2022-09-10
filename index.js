@@ -2,7 +2,7 @@ var canvas = new fabric.Canvas('canvas');
 document.getElementById("uploader").onchange = function(e) {
   var reader = new FileReader();
   var values=3;
-  console.log(values);
+  window.alert(values);
   reader.onload = function(e) {
     var image = new Image();
     image.src = e.target.result;
